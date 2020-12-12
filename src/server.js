@@ -1,6 +1,7 @@
 var express=require('express');
 var app=express();
-const db=require('./mdb');
+//const db=require('./mdb');
+const db=require('./dao');
 
 //app.use(express)
 
